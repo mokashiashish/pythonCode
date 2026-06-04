@@ -56,3 +56,10 @@ print (my_list)
 my_list.insert(1,'k')
 print (my_list)
 # disctionary
+my_dict = {'apple': '$2.10', 'orange': '$3.00', 'banana': '$1.50'}
+print ("Price of apple is: " + my_dict['apple'])
+print ("Price of orange is: " + my_dict['orange'])
+print ("Price of banana is: " + my_dict['banana'])
+dic_list = {'key1': [1, 2, 3], 'key2': ['a', 'b', 'need to capitalize this']}
+mylist = dic_list['key2'][2].upper()
+print (mylist)
