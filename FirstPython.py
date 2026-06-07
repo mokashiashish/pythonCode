@@ -63,3 +63,21 @@ print ("Price of banana is: " + my_dict['banana'])
 dic_list = {'key1': [1, 2, 3], 'key2': ['a', 'b', 'need to capitalize this']}
 mylist = dic_list['key2'][2].upper()
 print (mylist)
+# Tuple
+my_tuple = (1, 2, 3, 4, 5)
+print (my_tuple[0])
+print (len(my_tuple))  
+#sets
+my_list = [1, 1,1,1,1,1 ,2,2,2,3,3, 4, 5]
+my_set = set(my_list)
+print (my_set)
+my_set = set('Mississippi')
+print (my_set)
+# IO Operations
+myfile = open('my_file_txt.txt')
+print (myfile.read())
+myfile.close()
+with open('my_file_txt.txt',mode= 'a') as my_new_file:
+    my_new_file.write('Appending this text on fourth line.')
+    my_new_file = open('my_file_txt.txt')
+    print (my_new_file.read())
