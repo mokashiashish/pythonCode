@@ -1,0 +1,13 @@
+{
+  "regex": "(?ms)^(?P<SubjectName>[^\\r\\n]+?)\\s+Chapter\\s*\\d+:\\s*(?P<ChapterName>[^\\r\\n]+?)\\s+^\\d+\\.\\s*(?P<Question>[^\\r\\n]+?)\\s+(?P<AnswerOptions>A\\).+?\\nB\\).+?\\nC\\).+?\\nD\\).+?)(?=\\n\\d+\\.|\\Z)",
+  "db": {
+    "host": "127.0.0.1",
+    "user": "root",
+    "password": "As100711!",
+    "database": "sys"
+  }
+}
+
+  
+ 
+

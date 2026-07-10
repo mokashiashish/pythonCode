@@ -90,9 +90,6 @@ Feed: http://www.cbsnews.com/latest/rss/main
    Link: https://www.cbsnews.com/news/europe-air-conditioning-deadly-heat-waves-more-common/
    Desc: Only 20% European homes have AC, compared to 90% in the U.S., but as the climate changes, that vast gulf may be set to shrink.
 
-Feed: http://feeds.abcnews.com/abcnews/usheadlines
-Error: url-error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)
-
 Feed: http://rss.cnn.com/rss/cnn_topstories.rss
 1. Some on-air claims about Dominion Voting Systems were false, Fox News acknowledges in statement after deal is announced
    Link: https://www.cnn.com/business/live-news/fox-news-dominion-trial-04-18-23/index.html
@@ -284,4 +281,7 @@ Feed: http://rss.cnn.com/rss/cnn_topstories.rss
 69. Review: 'Barry' takes a whack at its farewell season
    Link: https://www.cnn.com/2023/04/14/entertainment/barry-season-4-review/index.html
    Desc: "Barry" has taken chances from the very beginning, which is certainly true of a fourth and final season that picks up where the third left off, with its hitman-turned-wannabe actor getting arrested. That paves the way for an even darker season that accentuates the show's ensemble aspect while leaning a little too heavily on blurring lines with flights of fancy.
+
+Feed: http://feeds.abcnews.com/abcnews/usheadlines
+Error: url-error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)
 
